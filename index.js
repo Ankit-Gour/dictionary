@@ -1,4 +1,5 @@
-function search() {
+window.onload=search();
+function  search() {
   document.getElementById("result").innerHTML = "";
   let word = sbar.value;
   image.src = `https://source.unsplash.com/random/400x200/?${word}`;
